@@ -1,0 +1,55 @@
+pwd   	: ruta en el que te encuentras (path working directory)
+~		: Es el "home" de los sistemas Linux
+mkdir 	: crear un directorio y subdirectorio
+cd		: cambiar de directorio
+cd.. 	: ir una carpeta hacia atrás
+dir 	: ver qué archivos tiene un directorio (windows)
+ls		: ver qué archivos tiene un directorio (Unix)
+ls -a   : mostrar incluso los ocultos
+ls -ano	: mostrar todo lo de la carpeta (incluido las carpetas ocultas)
+ren		: Renombrar directorios y archivos
+rm		: Borrar directorio y archivos (sii está vacío de proyectos)
+echo "Hola Mundo" > test.txt	: Crear archivo
+cat test.txt	: Revisar contenido de archivo
+mv 		: Mover archivos de directorio
+
+
+pip install notebook : Instalar notebooks de Jupyter
+jupyter notebook     : Abrir un notebook en la ruta en la que estemos ubicados
+
+Comandos en Gitbash
+
+--------------
+
+BASH
+
+touch .gitignore	: crear un fichero (.gitignore en este caso)
+
+--------------
+
+COMANDOS GIT
+
+git status  : Proporciona información sobre el estado actual de un repositorio Git y su contenido.
+git log		: Es todo el historial
+git init	: Crea un repositorio de Git
+git add	fichero	: Prepar los cambios para ser validados
+git add *	: Añade todo lo que esté modificado al staging
+git rm --cached <file> : sacarlo del staging
+gt commit -m "mensaje informativo"	: Valida y guarda cambios en el repositorio local
+git push	: Sube los cambios al repositorio remoto y crea una nueva versión
+git clone	: Clona/copia un repositorio remoto en una versión local
+git pull	: Descarga los cambios del repositorio remoto
+git branch name : Crear una rama
+git branch      : muestra en que rama estoy
+git checkout branch_name : Saltar de una rama a otra
+git switch :  ¡cuidado porque hace más cosas!
+git merge rama : desde la rama en la que estoy copio es de la otra rama
+
+
+---
+
+COMANDOS PYTHON
+
+import keyword
+print(keyword.kwlist) : lista de palabras clave de Python
+help('keywords')
